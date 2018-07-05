@@ -1,0 +1,19 @@
+<% include partials/header.ejs %>
+
+<div class="container">
+    <div class="text-center">
+
+        <h1>SPI</h1>
+        <h3>Suivi Pédagogique informatisé</h3>
+
+        <h5>Vous êtes connecté en tant que: <%= utilisateur.login %></h5>
+
+        <p>
+            <a href="/menu_enseignant" class="btn btn-primary my-2">Enseignant</a>
+            <a href="/menu_eleve" class="btn btn-primary my-2">Élève</a>
+            <a href="/boite_outils" class="btn btn-secondary my-2">Boite à outils</a>
+        </p>
+    </div>
+</div>
+
+<% include partials/footer.ejs %>

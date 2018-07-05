@@ -1,0 +1,26 @@
+<% include partials/header.ejs %>
+
+<div class="container">
+    <div class="text-center">
+        <h1>Remplissez le formulaire</h1>
+        
+        <form method="post" action="/FormulaireEleveConfirmation">
+        
+            <p>Voulez-vous recevoir vos cours en version numérique ?</p>
+            
+            <input type="checkbox" name="ouinum" value="true"> Oui<br>
+            <input type="checkbox" name="nonnum" value="false" checked> Non<br>
+            
+            <p>Voulez-vous consulter vos notes ?</p>
+            
+            <input type="checkbox" name="ouinote" value="true"> Oui<br>
+            <input type="checkbox" name="nonnote" value="false" checked> Non<br>
+            
+            <button class="btn btn-mg btn-primary " type="submit">Envoyer</button>
+        
+        </form>
+        
+    </div>
+</div>
+
+<% include partials/footer.ejs %>

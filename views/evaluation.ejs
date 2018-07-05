@@ -1,0 +1,72 @@
+<% include partials/header.ejs %>
+
+    <div class="text-center mb-1">
+        <h1>Evaluation</h1>
+    </div>
+
+    <div class="container-fluid">
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Orthographe lexicale</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Orthographe grammaticale</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Conjugaison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Grammaire</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Vocabulaire</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Production d'écrit</a>
+            </li>
+        </ul>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Question</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Orthographier les mots invariables les plus usités</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Ecrire le son [s] dans les mots d'usage courant</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Ecrire les mots usuels terminés par le sons [a]</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="text-center">
+        
+        <button class="btn-primary">Exercice</button>
+        <button class="btn-primary">Saisie Résultats</button>
+        <button class="btn-primary">Informations</button>
+        <button class="btn-primary">Groupe de besoin</button>
+        <button class="btn-primary">Remaniement</button>
+            
+        </div>
+        
+
+    </div>
+
+    <div class="text-center mt-2">
+        <a href="/menu_enseignant">
+            <button type="button">Retour menu</button>
+        </a>
+    </div>
+
+    <% include partials/footer.ejs %>

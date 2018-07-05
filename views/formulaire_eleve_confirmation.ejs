@@ -1,0 +1,22 @@
+<% include partials/header.ejs %>
+
+<h1>Résultat de votre formulaire</h1>
+
+
+<% if(resultat.numerique){ %>
+
+<p>Vous voulez avoir accès aux cours numérique.</p>
+
+<% } else{ %>
+<p>Vous ne voulez pas avoir accès aux cours en ligne.</p>
+<% }%>
+
+<% if(resultat.note){ %>
+<p>Vous voulez avoir accès à vos notes.</p>
+<%} else{ %>
+<p>Vous ne voulez pas avoir accès a vos notes.</p>
+<% } %>
+
+<a href="/menu"><button type="button">Retour menu</button></a>
+
+<% include partials/footer.ejs %>
